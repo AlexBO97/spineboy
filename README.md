@@ -1,2 +1,2 @@
-# spineboy
+# pixi-spine
 Created with CodeSandbox
