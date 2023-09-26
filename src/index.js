@@ -1,7 +1,10 @@
-import "./styles.css";
-import * as PIXI from "pixi.js";
-import "pixi-spine";
+import * as PIXI from "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.5.1/pixi.min.js";
+// import * as PIXI from "https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.8.9/pixi.min.js";
+// import * as PIXI from "pixi.js";
+// import "pixi-spine";
+// import pixiSpine from 'https://cdn.jsdelivr.net/npm/pixi-spine@4.0.4/+esm'
 
+console.log("PIXI", PIXI.Application);
 var app = new PIXI.Application(1000, 800, { backgroundColor: 0x111111 });
 app.stage.interactive = true;
 document.body.appendChild(app.view);
