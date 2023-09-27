@@ -9,7 +9,7 @@
     "dependencies": {
         "lodash": "4.17.15",
         "pixi-spine": "1.5.22",
-        "pixi.js": "4.8.9",
+        "pixi.js": "^4.5.1",
         "webpack": "^5.88.2",
         "wrapper-webpack-plugin": "^2.2.2",
         "copy-webpack-plugin": "^11.0.0"
